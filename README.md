@@ -1,7 +1,7 @@
 # Pages
 
 
-![preview](project_demonstration_gif.gif)
+![project_demonstration_gif](https://github.com/HelixCipher/pages/blob/main/project_demonstration_gif.gif)
 
 A blog and portfolio site featuring a terminal-inspired design, auto-fetched GitHub projects, and build-time markdown processing.
 
