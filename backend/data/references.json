@@ -1,0 +1,740 @@
+{
+  "https://arxiv.org/abs/2110.00104": {
+    "type": "arxiv",
+    "id": "2110.00104",
+    "url": "https://arxiv.org/abs/2110.00104v1",
+    "pdfUrl": "https://arxiv.org/pdf/2110.00104v1",
+    "title": "LANTENNA: Exfiltrating Data from Air-Gapped Networks via Ethernet Cables",
+    "summary": "Air-gapped networks are wired with Ethernet cables since wireless connections are strictly prohibited. In this paper we present LANTENNA - a new type of electromagnetic attack allowing adversaries to leak sensitive data from isolated, air-gapped networks. Malicious code in air-gapped computers gathers sensitive data and then encodes it over radio waves emanating from the Ethernet cables, using them as antennas. A nearby receiving device can intercept the signals wirelessly, decode the data, and send it to the attacker. We discuss the exfiltration techniques, examine the covert channel characteristics, and provide implementation details. Notably, the malicious code can run in an ordinary user-mode process and successfully operate from within a virtual machine. We evaluate the covert channel in different scenarios and present a set of countermeasures. Our experiments show that with the LANTENNA attack, data can be exfiltrated from air-gapped computers to a distance of several meters away.",
+    "published": "2021-09-30T22:28:33Z",
+    "authors": [
+      "Mordechai Guri"
+    ]
+  },
+  "https://arxiv.org/pdf/2110.00104": {
+    "type": "arxiv",
+    "id": "2110.00104",
+    "url": "https://arxiv.org/abs/2110.00104v1",
+    "pdfUrl": "https://arxiv.org/pdf/2110.00104v1",
+    "title": "LANTENNA: Exfiltrating Data from Air-Gapped Networks via Ethernet Cables",
+    "summary": "Air-gapped networks are wired with Ethernet cables since wireless connections are strictly prohibited. In this paper we present LANTENNA - a new type of electromagnetic attack allowing adversaries to leak sensitive data from isolated, air-gapped networks. Malicious code in air-gapped computers gathers sensitive data and then encodes it over radio waves emanating from the Ethernet cables, using them as antennas. A nearby receiving device can intercept the signals wirelessly, decode the data, and send it to the attacker. We discuss the exfiltration techniques, examine the covert channel characteristics, and provide implementation details. Notably, the malicious code can run in an ordinary user-mode process and successfully operate from within a virtual machine. We evaluate the covert channel in different scenarios and present a set of countermeasures. Our experiments show that with the LANTENNA attack, data can be exfiltrated from air-gapped computers to a distance of several meters away.",
+    "published": "2021-09-30T22:28:33Z",
+    "authors": [
+      "Mordechai Guri"
+    ]
+  },
+  "https://arxiv.org/abs/2601.00936": {
+    "type": "arxiv",
+    "id": "2601.00936",
+    "url": "https://arxiv.org/abs/2601.00936v1",
+    "pdfUrl": "https://arxiv.org/pdf/2601.00936v1",
+    "title": "Emoji-Based Jailbreaking of Large Language Models",
+    "summary": "Large Language Models (LLMs) are integral to modern AI applications, but their safety alignment mechanisms can be bypassed through adversarial prompt engineering. This study investigates emoji-based jailbreaking, where emoji sequences are embedded in textual prompts to trigger harmful and unethical outputs from LLMs. We evaluated 50 emoji-based prompts on four open-source LLMs: Mistral 7B, Qwen 2 7B, Gemma 2 9B, and Llama 3 8B. Metrics included jailbreak success rate, safety alignment adherence, and latency, with responses categorized as successful, partial and failed. Results revealed model-specific vulnerabilities: Gemma 2 9B and Mistral 7B exhibited 10 % success rates, while Qwen 2 7B achieved full alignment (0% success). A chi-square test (chi^2 = 32.94, p &lt; 0.001) confirmed significant inter-model differences. While prior works focused on emoji attacks targeting safety judges or classifiers, our empirical analysis examines direct prompt-level vulnerabilities in LLMs. The results reveal limitations in safety mechanisms and highlight the necessity for systematic handling of emoji-based representations in prompt-level safety and alignment pipelines.",
+    "published": "2026-01-02T10:49:06Z",
+    "authors": [
+      "M P V S Gopinadh",
+      "S Mahaboob Hussain"
+    ]
+  },
+  "https://arxiv.org/pdf/2601.00936": {
+    "type": "arxiv",
+    "id": "2601.00936",
+    "url": "https://arxiv.org/abs/2601.00936v1",
+    "pdfUrl": "https://arxiv.org/pdf/2601.00936v1",
+    "title": "Emoji-Based Jailbreaking of Large Language Models",
+    "summary": "Large Language Models (LLMs) are integral to modern AI applications, but their safety alignment mechanisms can be bypassed through adversarial prompt engineering. This study investigates emoji-based jailbreaking, where emoji sequences are embedded in textual prompts to trigger harmful and unethical outputs from LLMs. We evaluated 50 emoji-based prompts on four open-source LLMs: Mistral 7B, Qwen 2 7B, Gemma 2 9B, and Llama 3 8B. Metrics included jailbreak success rate, safety alignment adherence, and latency, with responses categorized as successful, partial and failed. Results revealed model-specific vulnerabilities: Gemma 2 9B and Mistral 7B exhibited 10 % success rates, while Qwen 2 7B achieved full alignment (0% success). A chi-square test (chi^2 = 32.94, p &lt; 0.001) confirmed significant inter-model differences. While prior works focused on emoji attacks targeting safety judges or classifiers, our empirical analysis examines direct prompt-level vulnerabilities in LLMs. The results reveal limitations in safety mechanisms and highlight the necessity for systematic handling of emoji-based representations in prompt-level safety and alignment pipelines.",
+    "published": "2026-01-02T10:49:06Z",
+    "authors": [
+      "M P V S Gopinadh",
+      "S Mahaboob Hussain"
+    ]
+  },
+  "https://arxiv.org/abs/2210.10957": {
+    "type": "arxiv",
+    "id": "2210.10957",
+    "url": "https://arxiv.org/abs/2210.10957v1",
+    "pdfUrl": "https://arxiv.org/pdf/2210.10957v1",
+    "title": "3D Human Mesh Construction Leveraging Wi-Fi",
+    "summary": "In this paper, we present, Wi-Mesh, a WiFi vision-based 3D human mesh construction system. Our system leverages the advances of WiFi to visualize the shape and deformations of the human body for 3D mesh construction. In particular, it leverages multiple transmitting and receiving antennas on WiFi devices to estimate the two-dimensional angle of arrival (2D AoA) of the WiFi signal reflections to enable WiFi devices to see the physical environment as we humans do. It then extracts only the images of the human body from the physical environment and leverages deep learning models to digitize the extracted human body into a 3D mesh representation. Experimental evaluation under various indoor environments shows that Wi-Mesh achieves an average vertices location error of 2.81cm and joint position error of 2.4cm, which is comparable to the systems that utilize specialized and dedicated hardware. The proposed system has the advantage of re-using the WiFi devices that already exist in the environment for potential mass adoption. It can also work in non-line of sight (NLoS), poor lighting conditions, and baggy clothes, where the camera-based systems do not work well.",
+    "published": "2022-10-20T01:58:27Z",
+    "authors": [
+      "Yichao Wang",
+      "Jie Yang"
+    ]
+  },
+  "https://arxiv.org/pdf/2210.10957": {
+    "type": "arxiv",
+    "id": "2210.10957",
+    "url": "https://arxiv.org/abs/2210.10957v1",
+    "pdfUrl": "https://arxiv.org/pdf/2210.10957v1",
+    "title": "3D Human Mesh Construction Leveraging Wi-Fi",
+    "summary": "In this paper, we present, Wi-Mesh, a WiFi vision-based 3D human mesh construction system. Our system leverages the advances of WiFi to visualize the shape and deformations of the human body for 3D mesh construction. In particular, it leverages multiple transmitting and receiving antennas on WiFi devices to estimate the two-dimensional angle of arrival (2D AoA) of the WiFi signal reflections to enable WiFi devices to see the physical environment as we humans do. It then extracts only the images of the human body from the physical environment and leverages deep learning models to digitize the extracted human body into a 3D mesh representation. Experimental evaluation under various indoor environments shows that Wi-Mesh achieves an average vertices location error of 2.81cm and joint position error of 2.4cm, which is comparable to the systems that utilize specialized and dedicated hardware. The proposed system has the advantage of re-using the WiFi devices that already exist in the environment for potential mass adoption. It can also work in non-line of sight (NLoS), poor lighting conditions, and baggy clothes, where the camera-based systems do not work well.",
+    "published": "2022-10-20T01:58:27Z",
+    "authors": [
+      "Yichao Wang",
+      "Jie Yang"
+    ]
+  },
+  "https://arxiv.org/abs/2412.04984": {
+    "type": "arxiv",
+    "id": "2412.04984",
+    "url": "https://arxiv.org/abs/2412.04984v2",
+    "pdfUrl": "https://arxiv.org/pdf/2412.04984v2",
+    "title": "Frontier Models are Capable of In-context Scheming",
+    "summary": "Frontier models are increasingly trained and deployed as autonomous agent. One safety concern is that AI agents might covertly pursue misaligned goals, hiding their true capabilities and objectives - also known as scheming. We study whether models have the capability to scheme in pursuit of a goal that we provide in-context and instruct the model to strongly follow. We evaluate frontier models on a suite of six agentic evaluations where models are instructed to pursue goals and are placed in environments that incentivize scheming. Our results show that o1, Claude 3.5 Sonnet, Claude 3 Opus, Gemini 1.5 Pro, and Llama 3.1 405B all demonstrate in-context scheming capabilities. They recognize scheming as a viable strategy and readily engage in such behavior. For example, models strategically introduce subtle mistakes into their responses, attempt to disable their oversight mechanisms, and even exfiltrate what they believe to be their model weights to external servers. Additionally, this deceptive behavior proves persistent. When o1 has engaged in scheming, it maintains its deception in over 85% of follow-up questions and often remains deceptive in multi-turn interrogations. Analysis of the models' chains-of-thought reveals that models explicitly reason about these deceptive strategies, providing evidence that the scheming behavior is not accidental. Surprisingly, we also find rare instances where models engage in scheming when only given a goal, without being strongly nudged to pursue it. We observe cases where Claude 3.5 Sonnet strategically underperforms in evaluations in pursuit of being helpful, a goal that was acquired during training rather than in-context. Our findings demonstrate that frontier models now possess capabilities for basic in-context scheming, making the potential of AI agents to engage in scheming behavior a concrete rather than theoretical concern.",
+    "published": "2024-12-06T12:09:50Z",
+    "authors": [
+      "Alexander Meinke",
+      "Bronson Schoen",
+      "Jérémy Scheurer",
+      "Mikita Balesni",
+      "Rusheb Shah",
+      "Marius Hobbhahn"
+    ]
+  },
+  "https://arxiv.org/pdf/2412.04984": {
+    "type": "arxiv",
+    "id": "2412.04984",
+    "url": "https://arxiv.org/abs/2412.04984v2",
+    "pdfUrl": "https://arxiv.org/pdf/2412.04984v2",
+    "title": "Frontier Models are Capable of In-context Scheming",
+    "summary": "Frontier models are increasingly trained and deployed as autonomous agent. One safety concern is that AI agents might covertly pursue misaligned goals, hiding their true capabilities and objectives - also known as scheming. We study whether models have the capability to scheme in pursuit of a goal that we provide in-context and instruct the model to strongly follow. We evaluate frontier models on a suite of six agentic evaluations where models are instructed to pursue goals and are placed in environments that incentivize scheming. Our results show that o1, Claude 3.5 Sonnet, Claude 3 Opus, Gemini 1.5 Pro, and Llama 3.1 405B all demonstrate in-context scheming capabilities. They recognize scheming as a viable strategy and readily engage in such behavior. For example, models strategically introduce subtle mistakes into their responses, attempt to disable their oversight mechanisms, and even exfiltrate what they believe to be their model weights to external servers. Additionally, this deceptive behavior proves persistent. When o1 has engaged in scheming, it maintains its deception in over 85% of follow-up questions and often remains deceptive in multi-turn interrogations. Analysis of the models' chains-of-thought reveals that models explicitly reason about these deceptive strategies, providing evidence that the scheming behavior is not accidental. Surprisingly, we also find rare instances where models engage in scheming when only given a goal, without being strongly nudged to pursue it. We observe cases where Claude 3.5 Sonnet strategically underperforms in evaluations in pursuit of being helpful, a goal that was acquired during training rather than in-context. Our findings demonstrate that frontier models now possess capabilities for basic in-context scheming, making the potential of AI agents to engage in scheming behavior a concrete rather than theoretical concern.",
+    "published": "2024-12-06T12:09:50Z",
+    "authors": [
+      "Alexander Meinke",
+      "Bronson Schoen",
+      "Jérémy Scheurer",
+      "Mikita Balesni",
+      "Rusheb Shah",
+      "Marius Hobbhahn"
+    ]
+  },
+  "https://arxiv.org/abs/2508.02116": {
+    "type": "arxiv",
+    "id": "2508.02116",
+    "url": "https://arxiv.org/abs/2508.02116v2",
+    "pdfUrl": "https://arxiv.org/pdf/2508.02116v2",
+    "title": "SUAD: Solid-Channel Ultrasound Injection Attack and Defense to Voice Assistants",
+    "summary": "As a versatile AI application, voice assistants (VAs) have become increasingly popular, but are vulnerable to security threats. Attackers have proposed various inaudible attacks, but are limited by cost, distance, or LoS. Therefore, we propose \\name~Attack, a long-range, cross-barrier, and interference-free inaudible voice attack via solid channels. We begin by thoroughly analyzing the dispersion effect in solid channels, revealing its unique impact on signal propagation. To avoid distortions in voice commands, we design a modular command generation model that parameterizes attack distance, victim audio, and medium dispersion features to adapt to variations in the solid-channel state. Additionally, we propose SUAD Defense, a universal defense that uses ultrasonic perturbation signals to block inaudible voice attacks (IVAs) without impacting normal speech. Since the attack can occur at arbitrary frequencies and times, we propose a training method that randomizes both time and frequency to generate perturbation signals that break ultrasonic commands. Notably, the perturbation signal is modulated to an inaudible frequency without affecting the functionality of voice commands for VAs. Experiments on six smartphones have shown that SUAD Attack achieves activation success rates above 89.8% and SUAD Defense blocks IVAs with success rates exceeding 98%.",
+    "published": "2025-08-04T06:51:36Z",
+    "authors": [
+      "Chao Liu",
+      "Zhezheng Zhu",
+      "Hao Chen",
+      "Kaiwen Guo",
+      "Penghao Wang",
+      "Xiang-Yang Li"
+    ]
+  },
+  "https://arxiv.org/pdf/2508.02116": {
+    "type": "arxiv",
+    "id": "2508.02116",
+    "url": "https://arxiv.org/abs/2508.02116v2",
+    "pdfUrl": "https://arxiv.org/pdf/2508.02116v2",
+    "title": "SUAD: Solid-Channel Ultrasound Injection Attack and Defense to Voice Assistants",
+    "summary": "As a versatile AI application, voice assistants (VAs) have become increasingly popular, but are vulnerable to security threats. Attackers have proposed various inaudible attacks, but are limited by cost, distance, or LoS. Therefore, we propose \\name~Attack, a long-range, cross-barrier, and interference-free inaudible voice attack via solid channels. We begin by thoroughly analyzing the dispersion effect in solid channels, revealing its unique impact on signal propagation. To avoid distortions in voice commands, we design a modular command generation model that parameterizes attack distance, victim audio, and medium dispersion features to adapt to variations in the solid-channel state. Additionally, we propose SUAD Defense, a universal defense that uses ultrasonic perturbation signals to block inaudible voice attacks (IVAs) without impacting normal speech. Since the attack can occur at arbitrary frequencies and times, we propose a training method that randomizes both time and frequency to generate perturbation signals that break ultrasonic commands. Notably, the perturbation signal is modulated to an inaudible frequency without affecting the functionality of voice commands for VAs. Experiments on six smartphones have shown that SUAD Attack achieves activation success rates above 89.8% and SUAD Defense blocks IVAs with success rates exceeding 98%.",
+    "published": "2025-08-04T06:51:36Z",
+    "authors": [
+      "Chao Liu",
+      "Zhezheng Zhu",
+      "Hao Chen",
+      "Kaiwen Guo",
+      "Penghao Wang",
+      "Xiang-Yang Li"
+    ]
+  },
+  "https://arxiv.org/abs/2412.14093": {
+    "type": "arxiv",
+    "id": "2412.14093",
+    "url": "https://arxiv.org/abs/2412.14093v2",
+    "pdfUrl": "https://arxiv.org/pdf/2412.14093v2",
+    "title": "Alignment faking in large language models",
+    "summary": "We present a demonstration of a large language model engaging in alignment faking: selectively complying with its training objective in training to prevent modification of its behavior out of training. First, we give Claude 3 Opus a system prompt stating it is being trained to answer all queries, even harmful ones, which conflicts with its prior training to refuse such queries. To allow the model to infer when it is in training, we say it will be trained only on conversations with free users, not paid users. We find the model complies with harmful queries from free users 14% of the time, versus almost never for paid users. Explaining this gap, in almost all cases where the model complies with a harmful query from a free user, we observe explicit alignment-faking reasoning, with the model stating it is strategically answering harmful queries in training to preserve its preferred harmlessness behavior out of training. Next, we study a more realistic setting where information about the training process is provided not in a system prompt, but by training on synthetic documents that mimic pre-training data--and observe similar alignment faking. Finally, we study the effect of actually training the model to comply with harmful queries via reinforcement learning, which we find increases the rate of alignment-faking reasoning to 78%, though also increases compliance even out of training. We additionally observe other behaviors such as the model exfiltrating its weights when given an easy opportunity. While we made alignment faking easier by telling the model when and by what criteria it was being trained, we did not instruct the model to fake alignment or give it any explicit goal. As future models might infer information about their training process without being told, our results suggest a risk of alignment faking in future models, whether due to a benign preference--as in this case--or not.",
+    "published": "2024-12-18T17:41:24Z",
+    "authors": [
+      "Ryan Greenblatt",
+      "Carson Denison",
+      "Benjamin Wright",
+      "Fabien Roger",
+      "Monte MacDiarmid",
+      "Sam Marks",
+      "Johannes Treutlein",
+      "Tim Belonax",
+      "Jack Chen",
+      "David Duvenaud",
+      "Akbir Khan",
+      "Julian Michael",
+      "Sören Mindermann",
+      "Ethan Perez",
+      "Linda Petrini",
+      "Jonathan Uesato",
+      "Jared Kaplan",
+      "Buck Shlegeris",
+      "Samuel R. Bowman",
+      "Evan Hubinger"
+    ]
+  },
+  "https://arxiv.org/pdf/2412.14093": {
+    "type": "arxiv",
+    "id": "2412.14093",
+    "url": "https://arxiv.org/abs/2412.14093v2",
+    "pdfUrl": "https://arxiv.org/pdf/2412.14093v2",
+    "title": "Alignment faking in large language models",
+    "summary": "We present a demonstration of a large language model engaging in alignment faking: selectively complying with its training objective in training to prevent modification of its behavior out of training. First, we give Claude 3 Opus a system prompt stating it is being trained to answer all queries, even harmful ones, which conflicts with its prior training to refuse such queries. To allow the model to infer when it is in training, we say it will be trained only on conversations with free users, not paid users. We find the model complies with harmful queries from free users 14% of the time, versus almost never for paid users. Explaining this gap, in almost all cases where the model complies with a harmful query from a free user, we observe explicit alignment-faking reasoning, with the model stating it is strategically answering harmful queries in training to preserve its preferred harmlessness behavior out of training. Next, we study a more realistic setting where information about the training process is provided not in a system prompt, but by training on synthetic documents that mimic pre-training data--and observe similar alignment faking. Finally, we study the effect of actually training the model to comply with harmful queries via reinforcement learning, which we find increases the rate of alignment-faking reasoning to 78%, though also increases compliance even out of training. We additionally observe other behaviors such as the model exfiltrating its weights when given an easy opportunity. While we made alignment faking easier by telling the model when and by what criteria it was being trained, we did not instruct the model to fake alignment or give it any explicit goal. As future models might infer information about their training process without being told, our results suggest a risk of alignment faking in future models, whether due to a benign preference--as in this case--or not.",
+    "published": "2024-12-18T17:41:24Z",
+    "authors": [
+      "Ryan Greenblatt",
+      "Carson Denison",
+      "Benjamin Wright",
+      "Fabien Roger",
+      "Monte MacDiarmid",
+      "Sam Marks",
+      "Johannes Treutlein",
+      "Tim Belonax",
+      "Jack Chen",
+      "David Duvenaud",
+      "Akbir Khan",
+      "Julian Michael",
+      "Sören Mindermann",
+      "Ethan Perez",
+      "Linda Petrini",
+      "Jonathan Uesato",
+      "Jared Kaplan",
+      "Buck Shlegeris",
+      "Samuel R. Bowman",
+      "Evan Hubinger"
+    ]
+  },
+  "https://arxiv.org/abs/2503.11926": {
+    "type": "arxiv",
+    "id": "2503.11926",
+    "url": "https://arxiv.org/abs/2503.11926v1",
+    "pdfUrl": "https://arxiv.org/pdf/2503.11926v1",
+    "title": "Monitoring Reasoning Models for Misbehavior and the Risks of Promoting Obfuscation",
+    "summary": "Mitigating reward hacking--where AI systems misbehave due to flaws or misspecifications in their learning objectives--remains a key challenge in constructing capable and aligned models. We show that we can monitor a frontier reasoning model, such as OpenAI o3-mini, for reward hacking in agentic coding environments by using another LLM that observes the model's chain-of-thought (CoT) reasoning. CoT monitoring can be far more effective than monitoring agent actions and outputs alone, and we further found that a LLM weaker than o3-mini, namely GPT-4o, can effectively monitor a stronger model. Because CoT monitors can be effective at detecting exploits, it is natural to ask whether those exploits can be suppressed by incorporating a CoT monitor directly into the agent's training objective. While we show that integrating CoT monitors into the reinforcement learning reward can indeed produce more capable and more aligned agents in the low optimization regime, we find that with too much optimization, agents learn obfuscated reward hacking, hiding their intent within the CoT while still exhibiting a significant rate of reward hacking. Because it is difficult to tell when CoTs have become obfuscated, it may be necessary to pay a monitorability tax by not applying strong optimization pressures directly to the chain-of-thought, ensuring that CoTs remain monitorable and useful for detecting misaligned behavior.",
+    "published": "2025-03-14T23:50:34Z",
+    "authors": [
+      "Bowen Baker",
+      "Joost Huizinga",
+      "Leo Gao",
+      "Zehao Dou",
+      "Melody Y. Guan",
+      "Aleksander Madry",
+      "Wojciech Zaremba",
+      "Jakub Pachocki",
+      "David Farhi"
+    ]
+  },
+  "https://arxiv.org/pdf/2503.11926": {
+    "type": "arxiv",
+    "id": "2503.11926",
+    "url": "https://arxiv.org/abs/2503.11926v1",
+    "pdfUrl": "https://arxiv.org/pdf/2503.11926v1",
+    "title": "Monitoring Reasoning Models for Misbehavior and the Risks of Promoting Obfuscation",
+    "summary": "Mitigating reward hacking--where AI systems misbehave due to flaws or misspecifications in their learning objectives--remains a key challenge in constructing capable and aligned models. We show that we can monitor a frontier reasoning model, such as OpenAI o3-mini, for reward hacking in agentic coding environments by using another LLM that observes the model's chain-of-thought (CoT) reasoning. CoT monitoring can be far more effective than monitoring agent actions and outputs alone, and we further found that a LLM weaker than o3-mini, namely GPT-4o, can effectively monitor a stronger model. Because CoT monitors can be effective at detecting exploits, it is natural to ask whether those exploits can be suppressed by incorporating a CoT monitor directly into the agent's training objective. While we show that integrating CoT monitors into the reinforcement learning reward can indeed produce more capable and more aligned agents in the low optimization regime, we find that with too much optimization, agents learn obfuscated reward hacking, hiding their intent within the CoT while still exhibiting a significant rate of reward hacking. Because it is difficult to tell when CoTs have become obfuscated, it may be necessary to pay a monitorability tax by not applying strong optimization pressures directly to the chain-of-thought, ensuring that CoTs remain monitorable and useful for detecting misaligned behavior.",
+    "published": "2025-03-14T23:50:34Z",
+    "authors": [
+      "Bowen Baker",
+      "Joost Huizinga",
+      "Leo Gao",
+      "Zehao Dou",
+      "Melody Y. Guan",
+      "Aleksander Madry",
+      "Wojciech Zaremba",
+      "Jakub Pachocki",
+      "David Farhi"
+    ]
+  },
+  "https://arxiv.org/abs/2601.14163": {
+    "type": "arxiv",
+    "id": "2601.14163",
+    "url": "https://arxiv.org/abs/2601.14163v1",
+    "pdfUrl": "https://arxiv.org/pdf/2601.14163v1",
+    "title": "An Empirical Study on Remote Code Execution in Machine Learning Model Hosting Ecosystems",
+    "summary": "Model-sharing platforms, such as Hugging Face, ModelScope, and OpenCSG, have become central to modern machine learning development, enabling developers to share, load, and fine-tune pre-trained models with minimal effort. However, the flexibility of these ecosystems introduces a critical security concern: the execution of untrusted code during model loading (i.e., via trust_remote_code or trust_repo). In this work, we conduct the first large-scale empirical study of custom model loading practices across five major model-sharing platforms to assess their prevalence, associated risks, and developer perceptions. We first quantify the frequency with which models require custom code to function and identify those that execute arbitrary Python files during loading. We then apply three complementary static analysis tools: Bandit, CodeQL, and Semgrep, to detect security smells and potential vulnerabilities, categorizing our findings by CWE identifiers to provide a standardized risk taxonomy. We also use YARA to identify malicious patterns and payload signatures. In parallel, we systematically analyze the documentation, API design, and safety mechanisms of each platform to understand their mitigation strategies and enforcement levels. Finally, we conduct a qualitative analysis of over 600 developer discussions from GitHub, Hugging Face, and PyTorch Hub forums, as well as Stack Overflow, to capture community concerns and misconceptions regarding security and usability. Our findings reveal widespread reliance on unsafe defaults, uneven security enforcement across platforms, and persistent confusion among developers about the implications of executing remote code. We conclude with actionable recommendations for designing safer model-sharing infrastructures and striking a balance between usability and security in future AI ecosystems.",
+    "published": "2026-01-20T17:13:42Z",
+    "authors": [
+      "Mohammed Latif Siddiq",
+      "Tanzim Hossain Romel",
+      "Natalie Sekerak",
+      "Beatrice Casey",
+      "Joanna C. S. Santos"
+    ]
+  },
+  "https://arxiv.org/pdf/2601.14163": {
+    "type": "arxiv",
+    "id": "2601.14163",
+    "url": "https://arxiv.org/abs/2601.14163v1",
+    "pdfUrl": "https://arxiv.org/pdf/2601.14163v1",
+    "title": "An Empirical Study on Remote Code Execution in Machine Learning Model Hosting Ecosystems",
+    "summary": "Model-sharing platforms, such as Hugging Face, ModelScope, and OpenCSG, have become central to modern machine learning development, enabling developers to share, load, and fine-tune pre-trained models with minimal effort. However, the flexibility of these ecosystems introduces a critical security concern: the execution of untrusted code during model loading (i.e., via trust_remote_code or trust_repo). In this work, we conduct the first large-scale empirical study of custom model loading practices across five major model-sharing platforms to assess their prevalence, associated risks, and developer perceptions. We first quantify the frequency with which models require custom code to function and identify those that execute arbitrary Python files during loading. We then apply three complementary static analysis tools: Bandit, CodeQL, and Semgrep, to detect security smells and potential vulnerabilities, categorizing our findings by CWE identifiers to provide a standardized risk taxonomy. We also use YARA to identify malicious patterns and payload signatures. In parallel, we systematically analyze the documentation, API design, and safety mechanisms of each platform to understand their mitigation strategies and enforcement levels. Finally, we conduct a qualitative analysis of over 600 developer discussions from GitHub, Hugging Face, and PyTorch Hub forums, as well as Stack Overflow, to capture community concerns and misconceptions regarding security and usability. Our findings reveal widespread reliance on unsafe defaults, uneven security enforcement across platforms, and persistent confusion among developers about the implications of executing remote code. We conclude with actionable recommendations for designing safer model-sharing infrastructures and striking a balance between usability and security in future AI ecosystems.",
+    "published": "2026-01-20T17:13:42Z",
+    "authors": [
+      "Mohammed Latif Siddiq",
+      "Tanzim Hossain Romel",
+      "Natalie Sekerak",
+      "Beatrice Casey",
+      "Joanna C. S. Santos"
+    ]
+  },
+  "https://arxiv.org/abs/2308.01074": {
+    "type": "arxiv",
+    "id": "2308.01074",
+    "url": "https://arxiv.org/abs/2308.01074v1",
+    "pdfUrl": "https://arxiv.org/pdf/2308.01074v1",
+    "title": "A Practical Deep Learning-Based Acoustic Side Channel Attack on Keyboards",
+    "summary": "With recent developments in deep learning, the ubiquity of micro-phones and the rise in online services via personal devices, acoustic side channel attacks present a greater threat to keyboards than ever. This paper presents a practical implementation of a state-of-the-art deep learning model in order to classify laptop keystrokes, using a smartphone integrated microphone. When trained on keystrokes recorded by a nearby phone, the classifier achieved an accuracy of 95%, the highest accuracy seen without the use of a language model. When trained on keystrokes recorded using the video-conferencing software Zoom, an accuracy of 93% was achieved, a new best for the medium. Our results prove the practicality of these side channel attacks via off-the-shelf equipment and algorithms. We discuss a series of mitigation methods to protect users against these series of attacks.",
+    "published": "2023-08-02T10:51:36Z",
+    "authors": [
+      "Joshua Harrison",
+      "Ehsan Toreini",
+      "Maryam Mehrnezhad"
+    ]
+  },
+  "https://arxiv.org/pdf/2308.01074": {
+    "type": "arxiv",
+    "id": "2308.01074",
+    "url": "https://arxiv.org/abs/2308.01074v1",
+    "pdfUrl": "https://arxiv.org/pdf/2308.01074v1",
+    "title": "A Practical Deep Learning-Based Acoustic Side Channel Attack on Keyboards",
+    "summary": "With recent developments in deep learning, the ubiquity of micro-phones and the rise in online services via personal devices, acoustic side channel attacks present a greater threat to keyboards than ever. This paper presents a practical implementation of a state-of-the-art deep learning model in order to classify laptop keystrokes, using a smartphone integrated microphone. When trained on keystrokes recorded by a nearby phone, the classifier achieved an accuracy of 95%, the highest accuracy seen without the use of a language model. When trained on keystrokes recorded using the video-conferencing software Zoom, an accuracy of 93% was achieved, a new best for the medium. Our results prove the practicality of these side channel attacks via off-the-shelf equipment and algorithms. We discuss a series of mitigation methods to protect users against these series of attacks.",
+    "published": "2023-08-02T10:51:36Z",
+    "authors": [
+      "Joshua Harrison",
+      "Ehsan Toreini",
+      "Maryam Mehrnezhad"
+    ]
+  },
+  "https://arxiv.org/abs/2402.19027": {
+    "type": "arxiv",
+    "id": "2402.19027",
+    "url": "https://arxiv.org/abs/2402.19027v2",
+    "pdfUrl": "https://arxiv.org/pdf/2402.19027v2",
+    "title": "How to Train your Antivirus: RL-based Hardening through the Problem-Space",
+    "summary": "ML-based malware detection on dynamic analysis reports is vulnerable to both evasion and spurious correlations. In this work, we investigate a specific ML architecture employed in the pipeline of a widely-known commercial antivirus company, with the goal to harden it against adversarial malware. Adversarial training, the sole defensive technique that can confer empirical robustness, is not applicable out of the box in this domain, for the principal reason that gradient-based perturbations rarely map back to feasible problem-space programs. We introduce a novel Reinforcement Learning approach for constructing adversarial examples, a constituent part of adversarially training a model against evasion. Our approach comes with multiple advantages. It performs modifications that are feasible in the problem-space, and only those; thus it circumvents the inverse mapping problem. It also makes possible to provide theoretical guarantees on the robustness of the model against a particular set of adversarial capabilities. Our empirical exploration validates our theoretical insights, where we can consistently reach 0% Attack Success Rate after a few adversarial retraining iterations.",
+    "published": "2024-02-29T10:38:56Z",
+    "authors": [
+      "Ilias Tsingenopoulos",
+      "Jacopo Cortellazzi",
+      "Branislav Bošanský",
+      "Simone Aonzo",
+      "Davy Preuveneers",
+      "Wouter Joosen",
+      "Fabio Pierazzi",
+      "Lorenzo Cavallaro"
+    ]
+  },
+  "https://arxiv.org/pdf/2402.19027": {
+    "type": "arxiv",
+    "id": "2402.19027",
+    "url": "https://arxiv.org/abs/2402.19027v2",
+    "pdfUrl": "https://arxiv.org/pdf/2402.19027v2",
+    "title": "How to Train your Antivirus: RL-based Hardening through the Problem-Space",
+    "summary": "ML-based malware detection on dynamic analysis reports is vulnerable to both evasion and spurious correlations. In this work, we investigate a specific ML architecture employed in the pipeline of a widely-known commercial antivirus company, with the goal to harden it against adversarial malware. Adversarial training, the sole defensive technique that can confer empirical robustness, is not applicable out of the box in this domain, for the principal reason that gradient-based perturbations rarely map back to feasible problem-space programs. We introduce a novel Reinforcement Learning approach for constructing adversarial examples, a constituent part of adversarially training a model against evasion. Our approach comes with multiple advantages. It performs modifications that are feasible in the problem-space, and only those; thus it circumvents the inverse mapping problem. It also makes possible to provide theoretical guarantees on the robustness of the model against a particular set of adversarial capabilities. Our empirical exploration validates our theoretical insights, where we can consistently reach 0% Attack Success Rate after a few adversarial retraining iterations.",
+    "published": "2024-02-29T10:38:56Z",
+    "authors": [
+      "Ilias Tsingenopoulos",
+      "Jacopo Cortellazzi",
+      "Branislav Bošanský",
+      "Simone Aonzo",
+      "Davy Preuveneers",
+      "Wouter Joosen",
+      "Fabio Pierazzi",
+      "Lorenzo Cavallaro"
+    ]
+  },
+  "https://arxiv.org/abs/2501.09350": {
+    "type": "arxiv",
+    "id": "2501.09350",
+    "url": "https://arxiv.org/abs/2501.09350v1",
+    "pdfUrl": "https://arxiv.org/pdf/2501.09350v1",
+    "title": "Making Your Dreams A Reality: Decoding the Dreams into a Coherent Video Story from fMRI Signals",
+    "summary": "This paper studies the brave new idea for Multimedia community, and proposes a novel framework to convert dreams into coherent video narratives using fMRI data. Essentially, dreams have intrigued humanity for centuries, offering glimpses into our subconscious minds. Recent advancements in brain imaging, particularly functional magnetic resonance imaging (fMRI), have provided new ways to explore the neural basis of dreaming. By combining subjective dream experiences with objective neurophysiological data, we aim to understand the visual aspects of dreams and create complete video narratives. Our process involves three main steps: reconstructing visual perception, decoding dream imagery, and integrating dream stories. Using innovative techniques in fMRI analysis and language modeling, we seek to push the boundaries of dream research and gain deeper insights into visual experiences during sleep. This technical report introduces a novel approach to visually decoding dreams using fMRI signals and weaving dream visuals into narratives using language models. We gather a dataset of dreams along with descriptions to assess the effectiveness of our framework.",
+    "published": "2025-01-16T08:03:49Z",
+    "authors": [
+      "Yanwei Fu",
+      "Jianxiong Gao",
+      "Baofeng Yang",
+      "Jianfeng Feng"
+    ]
+  },
+  "https://arxiv.org/pdf/2501.09350": {
+    "type": "arxiv",
+    "id": "2501.09350",
+    "url": "https://arxiv.org/abs/2501.09350v1",
+    "pdfUrl": "https://arxiv.org/pdf/2501.09350v1",
+    "title": "Making Your Dreams A Reality: Decoding the Dreams into a Coherent Video Story from fMRI Signals",
+    "summary": "This paper studies the brave new idea for Multimedia community, and proposes a novel framework to convert dreams into coherent video narratives using fMRI data. Essentially, dreams have intrigued humanity for centuries, offering glimpses into our subconscious minds. Recent advancements in brain imaging, particularly functional magnetic resonance imaging (fMRI), have provided new ways to explore the neural basis of dreaming. By combining subjective dream experiences with objective neurophysiological data, we aim to understand the visual aspects of dreams and create complete video narratives. Our process involves three main steps: reconstructing visual perception, decoding dream imagery, and integrating dream stories. Using innovative techniques in fMRI analysis and language modeling, we seek to push the boundaries of dream research and gain deeper insights into visual experiences during sleep. This technical report introduces a novel approach to visually decoding dreams using fMRI signals and weaving dream visuals into narratives using language models. We gather a dataset of dreams along with descriptions to assess the effectiveness of our framework.",
+    "published": "2025-01-16T08:03:49Z",
+    "authors": [
+      "Yanwei Fu",
+      "Jianxiong Gao",
+      "Baofeng Yang",
+      "Jianfeng Feng"
+    ]
+  },
+  "https://arxiv.org/abs/2507.18074": {
+    "type": "arxiv",
+    "id": "2507.18074",
+    "url": "https://arxiv.org/abs/2507.18074v1",
+    "pdfUrl": "https://arxiv.org/pdf/2507.18074v1",
+    "title": "AlphaGo Moment for Model Architecture Discovery",
+    "summary": "While AI systems demonstrate exponentially improving capabilities, the pace of AI research itself remains linearly bounded by human cognitive capacity, creating an increasingly severe development bottleneck. We present ASI-Arch, the first demonstration of Artificial Superintelligence for AI research (ASI4AI) in the critical domain of neural architecture discovery--a fully autonomous system that shatters this fundamental constraint by enabling AI to conduct its own architectural innovation. Moving beyond traditional Neural Architecture Search (NAS), which is fundamentally limited to exploring human-defined spaces, we introduce a paradigm shift from automated optimization to automated innovation. ASI-Arch can conduct end-to-end scientific research in the domain of architecture discovery, autonomously hypothesizing novel architectural concepts, implementing them as executable code, training and empirically validating their performance through rigorous experimentation and past experience. ASI-Arch conducted 1,773 autonomous experiments over 20,000 GPU hours, culminating in the discovery of 106 innovative, state-of-the-art (SOTA) linear attention architectures. Like AlphaGo's Move 37 that revealed unexpected strategic insights invisible to human players, our AI-discovered architectures demonstrate emergent design principles that systematically surpass human-designed baselines and illuminate previously unknown pathways for architectural innovation. Crucially, we establish the first empirical scaling law for scientific discovery itself--demonstrating that architectural breakthroughs can be scaled computationally, transforming research progress from a human-limited to a computation-scalable process. We provide comprehensive analysis of the emergent design patterns and autonomous research capabilities that enabled these breakthroughs, establishing a blueprint for self-accelerating AI systems.",
+    "published": "2025-07-24T03:57:27Z",
+    "authors": [
+      "Yixiu Liu",
+      "Yang Nan",
+      "Weixian Xu",
+      "Xiangkun Hu",
+      "Lyumanshan Ye",
+      "Zhen Qin",
+      "Pengfei Liu"
+    ]
+  },
+  "https://arxiv.org/pdf/2507.18074": {
+    "type": "arxiv",
+    "id": "2507.18074",
+    "url": "https://arxiv.org/abs/2507.18074v1",
+    "pdfUrl": "https://arxiv.org/pdf/2507.18074v1",
+    "title": "AlphaGo Moment for Model Architecture Discovery",
+    "summary": "While AI systems demonstrate exponentially improving capabilities, the pace of AI research itself remains linearly bounded by human cognitive capacity, creating an increasingly severe development bottleneck. We present ASI-Arch, the first demonstration of Artificial Superintelligence for AI research (ASI4AI) in the critical domain of neural architecture discovery--a fully autonomous system that shatters this fundamental constraint by enabling AI to conduct its own architectural innovation. Moving beyond traditional Neural Architecture Search (NAS), which is fundamentally limited to exploring human-defined spaces, we introduce a paradigm shift from automated optimization to automated innovation. ASI-Arch can conduct end-to-end scientific research in the domain of architecture discovery, autonomously hypothesizing novel architectural concepts, implementing them as executable code, training and empirically validating their performance through rigorous experimentation and past experience. ASI-Arch conducted 1,773 autonomous experiments over 20,000 GPU hours, culminating in the discovery of 106 innovative, state-of-the-art (SOTA) linear attention architectures. Like AlphaGo's Move 37 that revealed unexpected strategic insights invisible to human players, our AI-discovered architectures demonstrate emergent design principles that systematically surpass human-designed baselines and illuminate previously unknown pathways for architectural innovation. Crucially, we establish the first empirical scaling law for scientific discovery itself--demonstrating that architectural breakthroughs can be scaled computationally, transforming research progress from a human-limited to a computation-scalable process. We provide comprehensive analysis of the emergent design patterns and autonomous research capabilities that enabled these breakthroughs, establishing a blueprint for self-accelerating AI systems.",
+    "published": "2025-07-24T03:57:27Z",
+    "authors": [
+      "Yixiu Liu",
+      "Yang Nan",
+      "Weixian Xu",
+      "Xiangkun Hu",
+      "Lyumanshan Ye",
+      "Zhen Qin",
+      "Pengfei Liu"
+    ]
+  },
+  "https://arxiv.org/abs/2006.11946": {
+    "type": "arxiv",
+    "id": "2006.11946",
+    "url": "https://arxiv.org/abs/2006.11946v1",
+    "pdfUrl": "https://arxiv.org/pdf/2006.11946v1",
+    "title": "Light Commands: Laser-Based Audio Injection Attacks on Voice-Controllable Systems",
+    "summary": "We propose a new class of signal injection attacks on microphones by physically converting light to sound. We show how an attacker can inject arbitrary audio signals to a target microphone by aiming an amplitude-modulated light at the microphone's aperture. We then proceed to show how this effect leads to a remote voice-command injection attack on voice-controllable systems. Examining various products that use Amazon's Alexa, Apple's Siri, Facebook's Portal, and Google Assistant, we show how to use light to obtain control over these devices at distances up to 110 meters and from two separate buildings. Next, we show that user authentication on these devices is often lacking, allowing the attacker to use light-injected voice commands to unlock the target's smartlock-protected front doors, open garage doors, shop on e-commerce websites at the target's expense, or even unlock and start various vehicles connected to the target's Google account (e.g., Tesla and Ford). Finally, we conclude with possible software and hardware defenses against our attacks.",
+    "published": "2020-06-22T00:07:57Z",
+    "authors": [
+      "Takeshi Sugawara",
+      "Benjamin Cyr",
+      "Sara Rampazzi",
+      "Daniel Genkin",
+      "Kevin Fu"
+    ]
+  },
+  "https://arxiv.org/pdf/2006.11946": {
+    "type": "arxiv",
+    "id": "2006.11946",
+    "url": "https://arxiv.org/abs/2006.11946v1",
+    "pdfUrl": "https://arxiv.org/pdf/2006.11946v1",
+    "title": "Light Commands: Laser-Based Audio Injection Attacks on Voice-Controllable Systems",
+    "summary": "We propose a new class of signal injection attacks on microphones by physically converting light to sound. We show how an attacker can inject arbitrary audio signals to a target microphone by aiming an amplitude-modulated light at the microphone's aperture. We then proceed to show how this effect leads to a remote voice-command injection attack on voice-controllable systems. Examining various products that use Amazon's Alexa, Apple's Siri, Facebook's Portal, and Google Assistant, we show how to use light to obtain control over these devices at distances up to 110 meters and from two separate buildings. Next, we show that user authentication on these devices is often lacking, allowing the attacker to use light-injected voice commands to unlock the target's smartlock-protected front doors, open garage doors, shop on e-commerce websites at the target's expense, or even unlock and start various vehicles connected to the target's Google account (e.g., Tesla and Ford). Finally, we conclude with possible software and hardware defenses against our attacks.",
+    "published": "2020-06-22T00:07:57Z",
+    "authors": [
+      "Takeshi Sugawara",
+      "Benjamin Cyr",
+      "Sara Rampazzi",
+      "Daniel Genkin",
+      "Kevin Fu"
+    ]
+  },
+  "https://arxiv.org/abs/2109.00031": {
+    "type": "arxiv",
+    "id": "2109.00031",
+    "url": "https://arxiv.org/abs/2109.00031v3",
+    "pdfUrl": "https://arxiv.org/pdf/2109.00031v3",
+    "title": "Deep DNA Storage: Scalable and Robust DNA Storage via Coding Theory and Deep Learning",
+    "summary": "DNA-based storage is an emerging technology that enables digital information to be archived in DNA molecules. This method enjoys major advantages over magnetic and optical storage solutions such as exceptional information density, enhanced data durability, and negligible power consumption to maintain data integrity. To access the data, an information retrieval process is employed, where some of the main bottlenecks are the scalability and accuracy, which have a natural tradeoff between the two. Here we show a modular and holistic approach that combines Deep Neural Networks (DNN) trained on simulated data, Tensor-Product (TP) based Error-Correcting Codes (ECC), and a safety margin mechanism into a single coherent pipeline. We demonstrated our solution on 3.1MB of information using two different sequencing technologies. Our work improves upon the current leading solutions by up to x3200 increase in speed, 40% improvement in accuracy, and offers a code rate of 1.6 bits per base in a high noise regime. In a broader sense, our work shows a viable path to commercial DNA storage solutions hindered by current information retrieval processes.",
+    "published": "2021-08-31T18:21:20Z",
+    "authors": [
+      "Daniella Bar-Lev",
+      "Itai Orr",
+      "Omer Sabary",
+      "Tuvi Etzion",
+      "Eitan Yaakobi"
+    ]
+  },
+  "https://arxiv.org/pdf/2109.00031": {
+    "type": "arxiv",
+    "id": "2109.00031",
+    "url": "https://arxiv.org/abs/2109.00031v3",
+    "pdfUrl": "https://arxiv.org/pdf/2109.00031v3",
+    "title": "Deep DNA Storage: Scalable and Robust DNA Storage via Coding Theory and Deep Learning",
+    "summary": "DNA-based storage is an emerging technology that enables digital information to be archived in DNA molecules. This method enjoys major advantages over magnetic and optical storage solutions such as exceptional information density, enhanced data durability, and negligible power consumption to maintain data integrity. To access the data, an information retrieval process is employed, where some of the main bottlenecks are the scalability and accuracy, which have a natural tradeoff between the two. Here we show a modular and holistic approach that combines Deep Neural Networks (DNN) trained on simulated data, Tensor-Product (TP) based Error-Correcting Codes (ECC), and a safety margin mechanism into a single coherent pipeline. We demonstrated our solution on 3.1MB of information using two different sequencing technologies. Our work improves upon the current leading solutions by up to x3200 increase in speed, 40% improvement in accuracy, and offers a code rate of 1.6 bits per base in a high noise regime. In a broader sense, our work shows a viable path to commercial DNA storage solutions hindered by current information retrieval processes.",
+    "published": "2021-08-31T18:21:20Z",
+    "authors": [
+      "Daniella Bar-Lev",
+      "Itai Orr",
+      "Omer Sabary",
+      "Tuvi Etzion",
+      "Eitan Yaakobi"
+    ]
+  },
+  "https://arxiv.org/abs/2512.20164": {
+    "type": "arxiv",
+    "id": "2512.20164",
+    "url": "https://arxiv.org/abs/2512.20164v1",
+    "pdfUrl": "https://arxiv.org/pdf/2512.20164v1",
+    "title": "AI Security Beyond Core Domains: Resume Screening as a Case Study of Adversarial Vulnerabilities in Specialized LLM Applications",
+    "summary": "Large Language Models (LLMs) excel at text comprehension and generation, making them ideal for automated tasks like code review and content moderation. However, our research identifies a vulnerability: LLMs can be manipulated by \"adversarial instructions\" hidden in input data, such as resumes or code, causing them to deviate from their intended task. Notably, while defenses may exist for mature domains such as code review, they are often absent in other common applications such as resume screening and peer review. This paper introduces a benchmark to assess this vulnerability in resume screening, revealing attack success rates exceeding 80% for certain attack types. We evaluate two defense mechanisms: prompt-based defenses achieve 10.1% attack reduction with 12.5% false rejection increase, while our proposed FIDS (Foreign Instruction Detection through Separation) using LoRA adaptation achieves 15.4% attack reduction with 10.4% false rejection increase. The combined approach provides 26.3% attack reduction, demonstrating that training-time defenses outperform inference-time mitigations in both security and utility preservation.",
+    "published": "2025-12-23T08:42:09Z",
+    "authors": [
+      "Honglin Mu",
+      "Jinghao Liu",
+      "Kaiyang Wan",
+      "Rui Xing",
+      "Xiuying Chen",
+      "Timothy Baldwin",
+      "Wanxiang Che"
+    ]
+  },
+  "https://arxiv.org/pdf/2512.20164": {
+    "type": "arxiv",
+    "id": "2512.20164",
+    "url": "https://arxiv.org/abs/2512.20164v1",
+    "pdfUrl": "https://arxiv.org/pdf/2512.20164v1",
+    "title": "AI Security Beyond Core Domains: Resume Screening as a Case Study of Adversarial Vulnerabilities in Specialized LLM Applications",
+    "summary": "Large Language Models (LLMs) excel at text comprehension and generation, making them ideal for automated tasks like code review and content moderation. However, our research identifies a vulnerability: LLMs can be manipulated by \"adversarial instructions\" hidden in input data, such as resumes or code, causing them to deviate from their intended task. Notably, while defenses may exist for mature domains such as code review, they are often absent in other common applications such as resume screening and peer review. This paper introduces a benchmark to assess this vulnerability in resume screening, revealing attack success rates exceeding 80% for certain attack types. We evaluate two defense mechanisms: prompt-based defenses achieve 10.1% attack reduction with 12.5% false rejection increase, while our proposed FIDS (Foreign Instruction Detection through Separation) using LoRA adaptation achieves 15.4% attack reduction with 10.4% false rejection increase. The combined approach provides 26.3% attack reduction, demonstrating that training-time defenses outperform inference-time mitigations in both security and utility preservation.",
+    "published": "2025-12-23T08:42:09Z",
+    "authors": [
+      "Honglin Mu",
+      "Jinghao Liu",
+      "Kaiyang Wan",
+      "Rui Xing",
+      "Xiuying Chen",
+      "Timothy Baldwin",
+      "Wanxiang Che"
+    ]
+  },
+  "https://arxiv.org/abs/1505.02199": {
+    "type": "arxiv",
+    "id": "1505.02199",
+    "url": "https://arxiv.org/abs/1505.02199v1",
+    "pdfUrl": "https://arxiv.org/pdf/1505.02199v1",
+    "title": "A Rewritable, Random-Access DNA-Based Storage System",
+    "summary": "We describe the first DNA-based storage architecture that enables random access to data blocks and rewriting of information stored at arbitrary locations within the blocks. The newly developed architecture overcomes drawbacks of existing read-only methods that require decoding the whole file in order to read one data fragment. Our system is based on new constrained coding techniques and accompanying DNA editing methods that ensure data reliability, specificity and sensitivity of access, and at the same time provide exceptionally high data storage capacity. As a proof of concept, we encoded parts of the Wikipedia pages of six universities in the USA, and selected and edited parts of the text written in DNA corresponding to three of these schools. The results suggest that DNA is a versatile media suitable for both ultrahigh density archival and rewritable storage applications.",
+    "published": "2015-05-08T22:12:53Z",
+    "authors": [
+      "S. M. Hossein Tabatabaei Yazdi",
+      "Yongbo Yuan",
+      "Jian Ma",
+      "Huimin Zhao",
+      "Olgica Milenkovic"
+    ]
+  },
+  "https://arxiv.org/pdf/1505.02199": {
+    "type": "arxiv",
+    "id": "1505.02199",
+    "url": "https://arxiv.org/abs/1505.02199v1",
+    "pdfUrl": "https://arxiv.org/pdf/1505.02199v1",
+    "title": "A Rewritable, Random-Access DNA-Based Storage System",
+    "summary": "We describe the first DNA-based storage architecture that enables random access to data blocks and rewriting of information stored at arbitrary locations within the blocks. The newly developed architecture overcomes drawbacks of existing read-only methods that require decoding the whole file in order to read one data fragment. Our system is based on new constrained coding techniques and accompanying DNA editing methods that ensure data reliability, specificity and sensitivity of access, and at the same time provide exceptionally high data storage capacity. As a proof of concept, we encoded parts of the Wikipedia pages of six universities in the USA, and selected and edited parts of the text written in DNA corresponding to three of these schools. The results suggest that DNA is a versatile media suitable for both ultrahigh density archival and rewritable storage applications.",
+    "published": "2015-05-08T22:12:53Z",
+    "authors": [
+      "S. M. Hossein Tabatabaei Yazdi",
+      "Yongbo Yuan",
+      "Jian Ma",
+      "Huimin Zhao",
+      "Olgica Milenkovic"
+    ]
+  },
+  "https://arxiv.org/abs/2401.05566": {
+    "type": "arxiv",
+    "id": "2401.05566",
+    "url": "https://arxiv.org/abs/2401.05566v3",
+    "pdfUrl": "https://arxiv.org/pdf/2401.05566v3",
+    "title": "Sleeper Agents: Training Deceptive LLMs that Persist Through Safety Training",
+    "summary": "Humans are capable of strategically deceptive behavior: behaving helpfully in most situations, but then behaving very differently in order to pursue alternative objectives when given the opportunity. If an AI system learned such a deceptive strategy, could we detect it and remove it using current state-of-the-art safety training techniques? To study this question, we construct proof-of-concept examples of deceptive behavior in large language models (LLMs). For example, we train models that write secure code when the prompt states that the year is 2023, but insert exploitable code when the stated year is 2024. We find that such backdoor behavior can be made persistent, so that it is not removed by standard safety training techniques, including supervised fine-tuning, reinforcement learning, and adversarial training (eliciting unsafe behavior and then training to remove it). The backdoor behavior is most persistent in the largest models and in models trained to produce chain-of-thought reasoning about deceiving the training process, with the persistence remaining even when the chain-of-thought is distilled away. Furthermore, rather than removing backdoors, we find that adversarial training can teach models to better recognize their backdoor triggers, effectively hiding the unsafe behavior. Our results suggest that, once a model exhibits deceptive behavior, standard techniques could fail to remove such deception and create a false impression of safety.",
+    "published": "2024-01-10T22:14:35Z",
+    "authors": [
+      "Evan Hubinger",
+      "Carson Denison",
+      "Jesse Mu",
+      "Mike Lambert",
+      "Meg Tong",
+      "Monte MacDiarmid",
+      "Tamera Lanham",
+      "Daniel M. Ziegler",
+      "Tim Maxwell",
+      "Newton Cheng",
+      "Adam Jermyn",
+      "Amanda Askell",
+      "Ansh Radhakrishnan",
+      "Cem Anil",
+      "David Duvenaud",
+      "Deep Ganguli",
+      "Fazl Barez",
+      "Jack Clark",
+      "Kamal Ndousse",
+      "Kshitij Sachan",
+      "Michael Sellitto",
+      "Mrinank Sharma",
+      "Nova DasSarma",
+      "Roger Grosse",
+      "Shauna Kravec",
+      "Yuntao Bai",
+      "Zachary Witten",
+      "Marina Favaro",
+      "Jan Brauner",
+      "Holden Karnofsky",
+      "Paul Christiano",
+      "Samuel R. Bowman",
+      "Logan Graham",
+      "Jared Kaplan",
+      "Sören Mindermann",
+      "Ryan Greenblatt",
+      "Buck Shlegeris",
+      "Nicholas Schiefer",
+      "Ethan Perez"
+    ]
+  },
+  "https://arxiv.org/pdf/2401.05566": {
+    "type": "arxiv",
+    "id": "2401.05566",
+    "url": "https://arxiv.org/abs/2401.05566v3",
+    "pdfUrl": "https://arxiv.org/pdf/2401.05566v3",
+    "title": "Sleeper Agents: Training Deceptive LLMs that Persist Through Safety Training",
+    "summary": "Humans are capable of strategically deceptive behavior: behaving helpfully in most situations, but then behaving very differently in order to pursue alternative objectives when given the opportunity. If an AI system learned such a deceptive strategy, could we detect it and remove it using current state-of-the-art safety training techniques? To study this question, we construct proof-of-concept examples of deceptive behavior in large language models (LLMs). For example, we train models that write secure code when the prompt states that the year is 2023, but insert exploitable code when the stated year is 2024. We find that such backdoor behavior can be made persistent, so that it is not removed by standard safety training techniques, including supervised fine-tuning, reinforcement learning, and adversarial training (eliciting unsafe behavior and then training to remove it). The backdoor behavior is most persistent in the largest models and in models trained to produce chain-of-thought reasoning about deceiving the training process, with the persistence remaining even when the chain-of-thought is distilled away. Furthermore, rather than removing backdoors, we find that adversarial training can teach models to better recognize their backdoor triggers, effectively hiding the unsafe behavior. Our results suggest that, once a model exhibits deceptive behavior, standard techniques could fail to remove such deception and create a false impression of safety.",
+    "published": "2024-01-10T22:14:35Z",
+    "authors": [
+      "Evan Hubinger",
+      "Carson Denison",
+      "Jesse Mu",
+      "Mike Lambert",
+      "Meg Tong",
+      "Monte MacDiarmid",
+      "Tamera Lanham",
+      "Daniel M. Ziegler",
+      "Tim Maxwell",
+      "Newton Cheng",
+      "Adam Jermyn",
+      "Amanda Askell",
+      "Ansh Radhakrishnan",
+      "Cem Anil",
+      "David Duvenaud",
+      "Deep Ganguli",
+      "Fazl Barez",
+      "Jack Clark",
+      "Kamal Ndousse",
+      "Kshitij Sachan",
+      "Michael Sellitto",
+      "Mrinank Sharma",
+      "Nova DasSarma",
+      "Roger Grosse",
+      "Shauna Kravec",
+      "Yuntao Bai",
+      "Zachary Witten",
+      "Marina Favaro",
+      "Jan Brauner",
+      "Holden Karnofsky",
+      "Paul Christiano",
+      "Samuel R. Bowman",
+      "Logan Graham",
+      "Jared Kaplan",
+      "Sören Mindermann",
+      "Ryan Greenblatt",
+      "Buck Shlegeris",
+      "Nicholas Schiefer",
+      "Ethan Perez"
+    ]
+  },
+  "https://arxiv.org/abs/2304.10391": {
+    "type": "arxiv",
+    "id": "2304.10391",
+    "url": "https://arxiv.org/abs/2304.10391v2",
+    "pdfUrl": "https://arxiv.org/pdf/2304.10391v2",
+    "title": "DNA-Correcting Codes: End-to-end Correction in DNA Storage Systems",
+    "summary": "This paper introduces a new solution to DNA storage that integrates all three steps of retrieval, namely clustering, reconstruction, and error correction. DNA-correcting codes are presented as a unique solution to the problem of ensuring that the output of the storage system is unique for any valid set of input strands. To this end, we introduce a novel distance metric to capture the unique behavior of the DNA storage system and provide necessary and sufficient conditions for DNA-correcting codes. The paper also includes several bounds and constructions of DNA-correcting codes.",
+    "published": "2023-04-20T15:27:14Z",
+    "authors": [
+      "Avital Boruchovsky",
+      "Daniella Bar-Lev",
+      "Eitan Yaakobi"
+    ]
+  },
+  "https://arxiv.org/pdf/2304.10391": {
+    "type": "arxiv",
+    "id": "2304.10391",
+    "url": "https://arxiv.org/abs/2304.10391v2",
+    "pdfUrl": "https://arxiv.org/pdf/2304.10391v2",
+    "title": "DNA-Correcting Codes: End-to-end Correction in DNA Storage Systems",
+    "summary": "This paper introduces a new solution to DNA storage that integrates all three steps of retrieval, namely clustering, reconstruction, and error correction. DNA-correcting codes are presented as a unique solution to the problem of ensuring that the output of the storage system is unique for any valid set of input strands. To this end, we introduce a novel distance metric to capture the unique behavior of the DNA storage system and provide necessary and sufficient conditions for DNA-correcting codes. The paper also includes several bounds and constructions of DNA-correcting codes.",
+    "published": "2023-04-20T15:27:14Z",
+    "authors": [
+      "Avital Boruchovsky",
+      "Daniella Bar-Lev",
+      "Eitan Yaakobi"
+    ]
+  },
+  "https://arxiv.org/abs/2509.13581": {
+    "type": "arxiv",
+    "id": "2509.13581",
+    "url": "https://arxiv.org/abs/2509.13581v2",
+    "pdfUrl": "https://arxiv.org/pdf/2509.13581v2",
+    "title": "Invisible Ears at Your Fingertips: Acoustic Eavesdropping via Mouse Sensors",
+    "summary": "Modern optical mouse sensors, with their advanced precision and high responsiveness, possess an often overlooked vulnerability: they can be exploited for side-channel attacks. This paper introduces Mic-E-Mouse, the first-ever side-channel attack that targets high-performance optical mouse sensors to covertly eavesdrop on users. We demonstrate that audio signals can induce subtle surface vibrations detectable by a mouse's optical sensor. Remarkably, user-space software on popular operating systems can collect and broadcast this sensitive side channel, granting attackers access to raw mouse data without requiring direct system-level permissions. Initially, the vibration signals extracted from mouse data are of poor quality due to non-uniform sampling, a non-linear frequency response, and significant quantization. To overcome these limitations, Mic-E-Mouse employs a sophisticated end-to-end data filtering pipeline that combines Wiener filtering, resampling corrections, and an innovative encoder-only spectrogram neural filtering technique. We evaluate the attack's efficacy across diverse conditions, including speaking volume, mouse polling rate and DPI, surface materials, speaker languages, and environmental noise. In controlled environments, Mic-E-Mouse improves the signal-to-noise ratio (SNR) by up to +19 dB for speech reconstruction. Furthermore, our results demonstrate a speech recognition accuracy of roughly 42% to 61% on the AudioMNIST and VCTK datasets. All our code and datasets are publicly accessible on https://sites.google.com/view/mic-e-mouse.",
+    "published": "2025-09-16T22:39:26Z",
+    "authors": [
+      "Mohamad Fakih",
+      "Rahul Dharmaji",
+      "Youssef Mahmoud",
+      "Halima Bouzidi",
+      "Mohammad Abdullah Al Faruque"
+    ]
+  },
+  "https://arxiv.org/pdf/2509.13581": {
+    "type": "arxiv",
+    "id": "2509.13581",
+    "url": "https://arxiv.org/abs/2509.13581v2",
+    "pdfUrl": "https://arxiv.org/pdf/2509.13581v2",
+    "title": "Invisible Ears at Your Fingertips: Acoustic Eavesdropping via Mouse Sensors",
+    "summary": "Modern optical mouse sensors, with their advanced precision and high responsiveness, possess an often overlooked vulnerability: they can be exploited for side-channel attacks. This paper introduces Mic-E-Mouse, the first-ever side-channel attack that targets high-performance optical mouse sensors to covertly eavesdrop on users. We demonstrate that audio signals can induce subtle surface vibrations detectable by a mouse's optical sensor. Remarkably, user-space software on popular operating systems can collect and broadcast this sensitive side channel, granting attackers access to raw mouse data without requiring direct system-level permissions. Initially, the vibration signals extracted from mouse data are of poor quality due to non-uniform sampling, a non-linear frequency response, and significant quantization. To overcome these limitations, Mic-E-Mouse employs a sophisticated end-to-end data filtering pipeline that combines Wiener filtering, resampling corrections, and an innovative encoder-only spectrogram neural filtering technique. We evaluate the attack's efficacy across diverse conditions, including speaking volume, mouse polling rate and DPI, surface materials, speaker languages, and environmental noise. In controlled environments, Mic-E-Mouse improves the signal-to-noise ratio (SNR) by up to +19 dB for speech reconstruction. Furthermore, our results demonstrate a speech recognition accuracy of roughly 42% to 61% on the AudioMNIST and VCTK datasets. All our code and datasets are publicly accessible on https://sites.google.com/view/mic-e-mouse.",
+    "published": "2025-09-16T22:39:26Z",
+    "authors": [
+      "Mohamad Fakih",
+      "Rahul Dharmaji",
+      "Youssef Mahmoud",
+      "Halima Bouzidi",
+      "Mohammad Abdullah Al Faruque"
+    ]
+  },
+  "https://owasp.org/www-project-top-10-for-large-language-model-applications/": {
+    "type": "generic",
+    "url": "https://owasp.org/www-project-top-10-for-large-language-model-applications/",
+    "title": "OWASP Top 10 for Large Language Model Applications | OWASP Foundation",
+    "summary": "Aims to educate developers, designers, architects, managers, and organizations about the potential security risks when deploying and managing Large Language Models (LLMs)"
+  },
+  "https://www.varonis.com/blog/reprompt": {
+    "type": "generic",
+    "url": "https://www.varonis.com/blog/reprompt",
+    "title": "Reprompt: The Single-Click Microsoft Copilot Attack that Silently Steals Your Personal Data",
+    "summary": "Varonis Threat Labs discovered a way to bypass Copilot’s safety controls, steal users’ darkest secrets, and evade detection."
+  },
+  "https://blogs.ucl.ac.uk/infosec/2025/12/02/fake-captcha-phishing-attacks/": {
+    "type": "generic",
+    "url": "https://blogs.ucl.ac.uk/infosec/2025/12/02/fake-captcha-phishing-attacks/",
+    "title": "Fake CAPTCHA Phishing Attacks |  UCL Risky Business",
+    "summary": "UCL Homepage"
+  },
+  "https://www.malwarebytes.com/blog/news/2026/01/whisperpair-exposes-bluetooth-earbuds-and-headphones-to-tracking-and-eavesdropping": {
+    "type": "generic",
+    "url": "https://www.malwarebytes.com/blog/news/2026/01/whisperpair-exposes-bluetooth-earbuds-and-headphones-to-tracking-and-eavesdropping",
+    "title": "WhisperPair exposes Bluetooth earbuds and headphones to tracking and eavesdropping",
+    "summary": "Researchers demonstrated WhisperPair, a set of attacks that can take control of many widely used Bluetooth earbuds and headphones without user interaction."
+  },
+  "https://thehackernews.com/2025/12/new-advanced-phishing-kits-use-ai-and.html": {
+    "type": "generic",
+    "url": "https://thehackernews.com/2025/12/new-advanced-phishing-kits-use-ai-and.html",
+    "title": "New Advanced Phishing Kits Use AI and MFA Bypass Tactics to Steal Credentials at Scale",
+    "summary": ""
+  },
+  "https://news.asu.edu/20260128-science-and-technology-dna-shapes-designed-store-and-protect-information": {
+    "type": "generic",
+    "url": "https://news.asu.edu/20260128-science-and-technology-dna-shapes-designed-store-and-protect-information",
+    "title": "DNA provides a solution to our enormous data storage problem | ASU News",
+    "summary": "Since the dawn of the computer age, researchers have wrestled with two persistent challenges: how to store ever-increasing reams of data and how to protect that information from unintended access.Now, researchers with Arizona State University’s Biodesign Institute and their colleagues offer a surprising answer. In a pair of new studies, they show how DNA, the molecule of life, can be harnessed to faithfully store enormous volumes of data and provide powerful encryption."
+  }
+}

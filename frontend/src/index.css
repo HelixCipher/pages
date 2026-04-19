@@ -1,0 +1,290 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root, .dark {
+    --background: 220 20% 7%;
+    --foreground: 120 40% 75%;
+
+    --card: 220 18% 10%;
+    --card-foreground: 120 30% 70%;
+
+    --popover: 220 18% 10%;
+    --popover-foreground: 120 30% 70%;
+
+    --primary: 120 60% 45%;
+    --primary-foreground: 220 20% 7%;
+
+    --secondary: 220 15% 15%;
+    --secondary-foreground: 120 20% 65%;
+
+    --muted: 220 15% 13%;
+    --muted-foreground: 120 10% 45%;
+
+    --accent: 160 60% 40%;
+    --accent-foreground: 220 20% 7%;
+
+    --destructive: 0 62% 50%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 120 20% 18%;
+    --input: 120 15% 18%;
+    --ring: 120 60% 45%;
+
+    --radius: 0.25rem;
+
+    --sidebar-background: 220 18% 8%;
+    --sidebar-foreground: 120 30% 70%;
+    --sidebar-primary: 120 60% 45%;
+    --sidebar-primary-foreground: 220 20% 7%;
+    --sidebar-accent: 220 15% 13%;
+    --sidebar-accent-foreground: 120 20% 65%;
+    --sidebar-border: 120 20% 15%;
+    --sidebar-ring: 120 60% 45%;
+
+    --terminal-green: 120 60% 45%;
+    --terminal-dim: 120 20% 30%;
+    --terminal-bright: 120 80% 60%;
+    --terminal-cyan: 180 60% 50%;
+    --terminal-amber: 40 90% 55%;
+    --terminal-magenta: 300 60% 60%;
+    --terminal-yellow: 50 90% 60%;
+    --glow-green: 0 0% 0% / 0;
+  }
+
+  .light {
+    --background: 60 10% 95%;
+    --foreground: 220 15% 20%;
+
+    --card: 60 10% 92%;
+    --card-foreground: 220 15% 25%;
+
+    --popover: 60 10% 92%;
+    --popover-foreground: 220 15% 25%;
+
+    --primary: 120 60% 32%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 60 5% 88%;
+    --secondary-foreground: 220 10% 35%;
+
+    --muted: 60 5% 90%;
+    --muted-foreground: 220 10% 45%;
+
+    --accent: 160 50% 35%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 62% 50%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 60 5% 82%;
+    --input: 60 5% 82%;
+    --ring: 120 60% 32%;
+
+    --sidebar-background: 60 10% 93%;
+    --sidebar-foreground: 220 15% 25%;
+    --sidebar-primary: 120 60% 32%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 60 5% 88%;
+    --sidebar-accent-foreground: 220 10% 35%;
+    --sidebar-border: 60 5% 82%;
+    --sidebar-ring: 120 60% 32%;
+
+    --terminal-green: 120 60% 32%;
+    --terminal-dim: 120 15% 55%;
+    --terminal-bright: 120 70% 40%;
+    --terminal-cyan: 180 50% 35%;
+    --terminal-amber: 40 80% 45%;
+    --terminal-magenta: 300 50% 45%;
+    --terminal-yellow: 50 80% 45%;
+    --glow-green: 0 0% 0% / 0;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  *, *::before, *::after {
+    transition: background-color 0.3s ease, color 0.2s ease, border-color 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  body {
+    @apply bg-background text-foreground font-mono;
+    font-family: 'JetBrains Mono', monospace;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'JetBrains Mono', monospace;
+    @apply font-bold;
+  }
+
+  p, li {
+    font-family: 'Inter', sans-serif;
+    @apply leading-relaxed;
+  }
+
+  ::selection {
+    background: hsl(120 60% 45% / 0.3);
+    color: hsl(120 80% 60%);
+  }
+
+  ::-webkit-scrollbar {
+    width: 6px;
+  }
+  ::-webkit-scrollbar-track {
+    background: hsl(220 20% 7%);
+  }
+  ::-webkit-scrollbar-thumb {
+    background: hsl(120 20% 20%);
+    border-radius: 3px;
+  }
+}
+
+@layer utilities {
+  .text-glow {
+    text-shadow: 0 0 10px hsl(120 60% 45% / 0.5), 0 0 20px hsl(120 60% 45% / 0.3);
+  }
+
+  .text-glow-sm {
+    text-shadow: 0 0 5px hsl(120 60% 45% / 0.4);
+  }
+
+  .border-glow {
+    box-shadow: 0 0 5px hsl(120 60% 45% / 0.15), inset 0 0 5px hsl(120 60% 45% / 0.05);
+  }
+
+  .scanline {
+    position: relative;
+    overflow: hidden;
+  }
+  .scanline::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: repeating-linear-gradient(
+      0deg,
+      transparent,
+      transparent 2px,
+      hsl(120 60% 45% / 0.03) 2px,
+      hsl(120 60% 45% / 0.03) 4px
+    );
+    pointer-events: none;
+  }
+
+  .cursor-blink::after {
+    content: '█';
+    animation: blink 1s step-end infinite;
+  }
+
+  @keyframes blink {
+    50% { opacity: 0; }
+  }
+
+  @keyframes matrix-rain {
+    0% { transform: translateY(-100%); opacity: 1; }
+    100% { transform: translateY(100vh); opacity: 0; }
+  }
+
+  @keyframes glitch {
+    0%, 100% { transform: translate(0); }
+    20% { transform: translate(-2px, 2px); }
+    40% { transform: translate(2px, -2px); }
+    60% { transform: translate(-1px, -1px); }
+    80% { transform: translate(1px, 1px); }
+  }
+
+  @keyframes typewriter {
+    from { width: 0; }
+    to { width: 100%; }
+  }
+
+  @keyframes cipher-spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+
+  @keyframes fade-up {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+  @keyframes pulse-glow {
+    0%, 100% { opacity: 0.4; }
+    50% { opacity: 1; }
+  }
+
+  .animate-fade-up {
+    animation: fade-up 0.6s ease-out forwards;
+  }
+
+  .animate-cipher-spin {
+    animation: cipher-spin 3s linear infinite;
+  }
+
+  .animate-pulse-glow {
+    animation: pulse-glow 2s ease-in-out infinite;
+  }
+}
+
+/* Prism syntax highlighting - terminal theme */
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+  color: hsl(220 10% 45%);
+  font-style: italic;
+}
+
+.token.punctuation {
+  color: hsl(var(--foreground));
+}
+
+.token.property,
+.token.tag,
+.token.boolean,
+.token.number,
+.token.constant,
+.token.symbol {
+  color: hsl(var(--terminal-magenta));
+}
+
+.token.selector,
+.token.attr-name,
+.token.string,
+.token.char,
+.token.builtin {
+  color: hsl(var(--primary));
+}
+
+.token.operator,
+.token.entity,
+.token.url,
+.language-css .token.string,
+.style .token.string {
+  color: hsl(var(--terminal-yellow));
+}
+
+.token.atrule,
+.token.attr-value,
+.token.keyword {
+  color: hsl(var(--terminal-cyan));
+}
+
+.token.function,
+.token.class-name {
+  color: hsl(var(--terminal-yellow));
+}
+
+.token.regex,
+.token.important,
+.token.variable {
+  color: hsl(var(--terminal-magenta));
+}

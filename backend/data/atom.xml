@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>HelixCipher</title>
+  <link href="https://helixcipher.github.io/pages"/>
+  <link href="https://helixcipher.github.io/pages/atom.xml" rel="self"/>
+  <id>https://helixcipher.github.io/pages/</id>
+  <updated>2026-04-19T11:43:52.861Z</updated>
+  <subtitle>Thoughts on security, code, and design.</subtitle>
+  <entry>
+    <title>Building a Cipher Engine from Scratch</title>
+    <link href="https://helixcipher.github.io/pages/blog/building_cipher_engine"/>
+    <id>https://helixcipher.github.io/pages/blog/building_cipher_engine</id>
+    <updated>2026-04-19T00:00:00Z</updated>
+    <summary>Exploring the fundamentals of encryption by building a substitution cipher engine in TypeScript.</summary>
+    <category term="cryptography"/>
+    <category term="typescript"/>
+    <category term="security"/>
+  </entry>
+  <entry>
+    <title>DeepLocker — when AI hides the trigger inside malware (demo from IBM Research)</title>
+    <link href="https://helixcipher.github.io/pages/blog/deep_locker_when_ai_hides_the_trigger_inside_malware_demo_from_ibm_research"/>
+    <id>https://helixcipher.github.io/pages/blog/deep_locker_when_ai_hides_the_trigger_inside_malware_demo_from_ibm_research</id>
+    <updated>2026-04-19T00:00:00Z</updated>
+    <summary>DeepLocker — when AI hides the trigger inside malware (demo from IBM Research)</summary>
+    <category term="ai"/>
+    <category term="aimalware"/>
+    <category term="adversarialml"/>
+    <category term="deeplearning"/>
+  </entry>
+  <entry>
+    <title>Do You Know What Your Model Is Doing Right Now?</title>
+    <link href="https://helixcipher.github.io/pages/blog/do_you_know_what_your_model_is_doing_right_now"/>
+    <id>https://helixcipher.github.io/pages/blog/do_you_know_what_your_model_is_doing_right_now</id>
+    <updated>2026-04-19T00:00:00Z</updated>
+    <summary>Do You Know What Your Model Is Doing Right Now?</summary>
+    <category term="ai"/>
+    <category term="mlsecurity"/>
+    <category term="aisecurity"/>
+    <category term="secureai"/>
+  </entry>
+  <entry>
+    <title>Exploring Emoji-Based Prompt Manipulation in LLMs</title>
+    <link href="https://helixcipher.github.io/pages/blog/exploring_emoji_based_prompt_manipulation_in_llms"/>
+    <id>https://helixcipher.github.io/pages/blog/exploring_emoji_based_prompt_manipulation_in_llms</id>
+    <updated>2026-04-19T00:00:00Z</updated>
+    <summary>Exploring Emoji-Based Prompt Manipulation in LLMs</summary>
+    <category term="ai"/>
+    <category term="aiattacks"/>
+    <category term="adversarialml"/>
+    <category term="cybersecurity"/>
+  </entry>
+  <entry>
+    <title>From Prompt Injection to Data Leaks: Securing LLMs in Production</title>
+    <link href="https://helixcipher.github.io/pages/blog/from_prompt_injection_to_data_leaks_securing_llms_in_production"/>
+    <id>https://helixcipher.github.io/pages/blog/from_prompt_injection_to_data_leaks_securing_llms_in_production</id>
+    <updated>2026-04-19T00:00:00Z</updated>
+    <summary>From Prompt Injection to Data Leaks: Securing LLMs in Production</summary>
+    <category term="ai"/>
+    <category term="cybersecurity"/>
+    <category term="llm"/>
+    <category term="security"/>
+  </entry>
+  <entry>
+    <title>How to Train Your Antivirus: RL to harden malware detectors</title>
+    <link href="https://helixcipher.github.io/pages/blog/how_to_train_your_antivirus_rl_to_harden_malware_detectors"/>
+    <id>https://helixcipher.github.io/pages/blog/how_to_train_your_antivirus_rl_to_harden_malware_detectors</id>
+    <updated>2026-04-19T00:00:00Z</updated>
+    <summary>How to Train Your Antivirus: RL to harden malware detectors</summary>
+    <category term="ai"/>
+    <category term="mlsecurity"/>
+    <category term="adversarialml"/>
+    <category term="threatmodeling"/>
+  </entry>
+  <entry>
+    <title>LANTENNA — exfiltrating data from air-gapped systems via Ethernet cables</title>
+    <link href="https://helixcipher.github.io/pages/blog/lantenna_exfiltrating_data_from_air_gapped_systems_via_ethernet_cables"/>
+    <id>https://helixcipher.github.io/pages/blog/lantenna_exfiltrating_data_from_air_gapped_systems_via_ethernet_cables</id>
+    <updated>2026-04-19T00:00:00Z</updated>
+    <summary>LANTENNA — exfiltrating data from air-gapped systems via Ethernet cables</summary>
+    <category term="iotsecurity"/>
+    <category term="voiceassistant"/>
+    <category term="cybersecurity"/>
+    <category term="threatmodeling"/>
+  </entry>
+  <entry>
+    <title>Models that deliberately withhold or distort information despite knowing the truth</title>
+    <link href="https://helixcipher.github.io/pages/blog/models_that_deliberately_withhold_or_distort_information_despite_knowing_the_truth"/>
+    <id>https://helixcipher.github.io/pages/blog/models_that_deliberately_withhold_or_distort_information_despite_knowing_the_truth</id>
+    <updated>2026-04-19T00:00:00Z</updated>
+    <summary>Models that deliberately withhold or distort information despite knowing the truth.</summary>
+    <category term="ai"/>
+    <category term="aisafety"/>
+    <category term="aialignment"/>
+    <category term="machinelearning"/>
+  </entry>
+  <entry>
+    <title>One Click Is All It Takes: Inside Copilot’s “Reprompt” Vulnerability</title>
+    <link href="https://helixcipher.github.io/pages/blog/one_click_is_all_it_takes_inside_copilots_reprompt_vulnerability"/>
+    <id>https://helixcipher.github.io/pages/blog/one_click_is_all_it_takes_inside_copilots_reprompt_vulnerability</id>
+    <updated>2026-04-19T00:00:00Z</updated>
+    <summary>One Click Is All It Takes: Inside Copilot’s “Reprompt” Vulnerability</summary>
+    <category term="cybersecurity"/>
+    <category term="ai"/>
+    <category term="githubcopilot"/>
+    <category term="threatintel"/>
+  </entry>
+  <entry>
+    <title>RAG vs Long-Context: how should you give LLMs your private data?</title>
+    <link href="https://helixcipher.github.io/pages/blog/rag_vs_long_context_how_should_you_give_LLMs_your_private_data"/>
+    <id>https://helixcipher.github.io/pages/blog/rag_vs_long_context_how_should_you_give_LLMs_your_private_data</id>
+    <updated>2026-04-19T00:00:00Z</updated>
+    <summary>RAG vs Long-Context: how should you give LLMs your private data?</summary>
+    <category term="llm"/>
+    <category term="rag"/>
+    <category term="longcontext"/>
+    <category term="mlops"/>
+  </entry>
+  <entry>
+    <title>Seeing Humans in 3D Through Wi‑Fi: A Approach to Body Mesh Reconstruction</title>
+    <link href="https://helixcipher.github.io/pages/blog/seeing_humans_in_3d_through_wifi_a_approach_to_body_mesh_reconstruction"/>
+    <id>https://helixcipher.github.io/pages/blog/seeing_humans_in_3d_through_wifi_a_approach_to_body_mesh_reconstruction</id>
+    <updated>2026-04-19T00:00:00Z</updated>
+    <summary>Seeing Humans in 3D Through Wi‑Fi: A Approach to Body Mesh Reconstruction</summary>
+    <category term="computervision"/>
+    <category term="wirelesssensing"/>
+    <category term="machinelearning"/>
+    <category term="ai"/>
+  </entry>
+  <entry>
+    <title>Solid-Channel Ultrasound Injection Attack and Defense to Voice Assistants</title>
+    <link href="https://helixcipher.github.io/pages/blog/solid-channel ultrasound_injection_attack_and_defense_to_voice_assistants"/>
+    <id>https://helixcipher.github.io/pages/blog/solid-channel ultrasound_injection_attack_and_defense_to_voice_assistants</id>
+    <updated>2026-04-19T00:00:00Z</updated>
+    <summary>Solid-Channel Ultrasound Injection Attack and Defense to Voice Assistants</summary>
+    <category term="ai"/>
+    <category term="aiprivacy"/>
+    <category term="cybersecurity"/>
+    <category term="acousticadversarial"/>
+  </entry>
+  <entry>
+    <title>Solid-Channel Ultrasound Injection Attack and Defense to Voice Assistants</title>
+    <link href="https://helixcipher.github.io/pages/blog/solid_channel_ultrasound_injection_attack_and_defense_to_voice_assistants"/>
+    <id>https://helixcipher.github.io/pages/blog/solid_channel_ultrasound_injection_attack_and_defense_to_voice_assistants</id>
+    <updated>2026-04-19T00:00:00Z</updated>
+    <summary>Solid-Channel Ultrasound Injection Attack and Defense to Voice Assistants</summary>
+    <category term="ai"/>
+    <category term="aiprivacy"/>
+    <category term="cybersecurity"/>
+    <category term="acousticadversarial"/>
+  </entry>
+  <entry>
+    <title>Terminal UI: A Design Philosophy</title>
+    <link href="https://helixcipher.github.io/pages/blog/terminal_ui_design_philosophy"/>
+    <id>https://helixcipher.github.io/pages/blog/terminal_ui_design_philosophy</id>
+    <updated>2026-04-19T00:00:00Z</updated>
+    <summary>Why terminal-inspired design is more than aesthetic—it&apos;s a philosophy of focused, efficient interfaces.</summary>
+    <category term="design"/>
+    <category term="ui"/>
+    <category term="terminal"/>
+  </entry>
+  <entry>
+    <title>The CAPTCHA Lie: How “Human Checks” Are Being Weaponized</title>
+    <link href="https://helixcipher.github.io/pages/blog/the_captcha_lie_how_human_checks_are_being_weaponized"/>
+    <id>https://helixcipher.github.io/pages/blog/the_captcha_lie_how_human_checks_are_being_weaponized</id>
+    <updated>2026-04-19T00:00:00Z</updated>
+    <summary>The CAPTCHA Lie: How “Human Checks” Are Being Weaponized</summary>
+    <category term="cybersecurity"/>
+    <category term="malware"/>
+    <category term="threatintelligence"/>
+    <category term="infosec"/>
+  </entry>
+  <entry>
+    <title>This AI Listens… and Knows What You Typed</title>
+    <link href="https://helixcipher.github.io/pages/blog/this_ai_listens_and_knows_what_you_typed"/>
+    <id>https://helixcipher.github.io/pages/blog/this_ai_listens_and_knows_what_you_typed</id>
+    <updated>2026-04-19T00:00:00Z</updated>
+    <summary>This AI Listens… and Knows What You Typed</summary>
+    <category term="aisecurity"/>
+    <category term="deeplearning"/>
+    <category term="cybersecurity"/>
+    <category term="privacy"/>
+  </entry>
+  <entry>
+    <title>Threat Modeling Agentic AI Systems: Proactive Strategies for Security and Resilience</title>
+    <link href="https://helixcipher.github.io/pages/blog/threat_modeling_agentic_ai_systems_proactive_strategies_for_security_and_resilience"/>
+    <id>https://helixcipher.github.io/pages/blog/threat_modeling_agentic_ai_systems_proactive_strategies_for_security_and_resilience</id>
+    <updated>2026-04-19T00:00:00Z</updated>
+    <summary>Threat Modeling Agentic AI Systems: Proactive Strategies for Security and Resilience</summary>
+    <category term="ai"/>
+    <category term="aiagents"/>
+    <category term="aisecurity"/>
+    <category term="threatmodeling"/>
+  </entry>
+  <entry>
+    <title>Running SQLite in the Browser with WASM</title>
+    <link href="https://helixcipher.github.io/pages/blog/wasm-sqlite-browser"/>
+    <id>https://helixcipher.github.io/pages/blog/wasm-sqlite-browser</id>
+    <updated>2026-04-19T00:00:00Z</updated>
+    <summary>How to use sql.js to run SQLite databases entirely in the browser using WebAssembly.</summary>
+    <category term="wasm"/>
+    <category term="sqlite"/>
+    <category term="javascript"/>
+  </entry>
+  <entry>
+    <title>What If Privacy Is a Habit, Not a Tool?</title>
+    <link href="https://helixcipher.github.io/pages/blog/what_if_privacy_is_a_habit_not_a_tool"/>
+    <id>https://helixcipher.github.io/pages/blog/what_if_privacy_is_a_habit_not_a_tool</id>
+    <updated>2026-04-19T00:00:00Z</updated>
+    <summary>What If Privacy Is a Habit, Not a Tool?</summary>
+    <category term="privacy"/>
+    <category term="metadata"/>
+    <category term="cybersecurity"/>
+    <category term="infosec"/>
+  </entry>
+  <entry>
+    <title>What If Safety Training Teaches the Model to Hide Better?</title>
+    <link href="https://helixcipher.github.io/pages/blog/what_if_safety_training_teaches_the_model_to_hide_better"/>
+    <id>https://helixcipher.github.io/pages/blog/what_if_safety_training_teaches_the_model_to_hide_better</id>
+    <updated>2026-04-19T00:00:00Z</updated>
+    <summary>What If Safety Training Teaches the Model to Hide Better?</summary>
+    <category term="aisecurity"/>
+    <category term="adversarialml"/>
+    <category term="redteaming"/>
+    <category term="mlops"/>
+  </entry>
+  <entry>
+    <title>What Your Bluetooth Accessories Can Reveal Without You Knowing</title>
+    <link href="https://helixcipher.github.io/pages/blog/what_your_bluetooth_accessories_can_reveal_without_you_knowing"/>
+    <id>https://helixcipher.github.io/pages/blog/what_your_bluetooth_accessories_can_reveal_without_you_knowing</id>
+    <updated>2026-04-19T00:00:00Z</updated>
+    <summary>What Your Bluetooth Accessories Can Reveal Without You Knowing</summary>
+    <category term="cybersecurity"/>
+    <category term="bluetoothsecurity"/>
+    <category term="iot"/>
+    <category term="privacy"/>
+  </entry>
+  <entry>
+    <title>When Brain Signals Become Stories: Reconstructing Dreams with AI</title>
+    <link href="https://helixcipher.github.io/pages/blog/when_brain_signals_become_stories_reconstructing_dreams_with_ai"/>
+    <id>https://helixcipher.github.io/pages/blog/when_brain_signals_become_stories_reconstructing_dreams_with_ai</id>
+    <updated>2026-04-19T00:00:00Z</updated>
+    <summary>When Brain Signals Become Stories: Reconstructing Dreams with AI</summary>
+    <category term="ai"/>
+    <category term="fmri"/>
+    <category term="airesearch"/>
+    <category term="machinelearning"/>
+  </entry>
+  <entry>
+    <title>When browser extensions become live surveillance</title>
+    <link href="https://helixcipher.github.io/pages/blog/when_browser_extensions_become_live_surveillance"/>
+    <id>https://helixcipher.github.io/pages/blog/when_browser_extensions_become_live_surveillance</id>
+    <updated>2026-04-19T00:00:00Z</updated>
+    <summary>When browser extensions become live surveillance</summary>
+    <category term="mlsecurity"/>
+    <category term="browsersecurity"/>
+    <category term="supplychainsecurity"/>
+    <category term="privacy"/>
+  </entry>
+  <entry>
+    <title>When light becomes a weapon: laser-based command injection attacks on voice assistants</title>
+    <link href="https://helixcipher.github.io/pages/blog/when_light_becomes_a_weapon_laser_based_command_injection_attacks_on_voice_assistants"/>
+    <id>https://helixcipher.github.io/pages/blog/when_light_becomes_a_weapon_laser_based_command_injection_attacks_on_voice_assistants</id>
+    <updated>2026-04-19T00:00:00Z</updated>
+    <summary>When light becomes a weapon: laser-based command injection attacks on voice assistants</summary>
+    <category term="iotsecurity"/>
+    <category term="infosec"/>
+    <category term="threatmodeling"/>
+    <category term="cybersecurity"/>
+  </entry>
+  <entry>
+    <title>When Phishing Learns to Think: AI-Powered Kits and the Next Wave of Account Takeovers</title>
+    <link href="https://helixcipher.github.io/pages/blog/when_phishing_learns_to_think_ai_powered_kits_and_the_next_wave_of_account_takeovers"/>
+    <id>https://helixcipher.github.io/pages/blog/when_phishing_learns_to_think_ai_powered_kits_and_the_next_wave_of_account_takeovers</id>
+    <updated>2026-04-19T00:00:00Z</updated>
+    <summary>When Phishing Learns to Think: AI-Powered Kits and the Next Wave of Account Takeovers</summary>
+    <category term="cybersecurity"/>
+    <category term="phishing"/>
+    <category term="mfa"/>
+    <category term="threatintel"/>
+  </entry>
+  <entry>
+    <title>When Storage Becomes Biology, Security Stops Being Purely Digital</title>
+    <link href="https://helixcipher.github.io/pages/blog/when_storage_becomes_biology_security_stops_being_purely_digital"/>
+    <id>https://helixcipher.github.io/pages/blog/when_storage_becomes_biology_security_stops_being_purely_digital</id>
+    <updated>2026-04-19T00:00:00Z</updated>
+    <summary>When Storage Becomes Biology, Security Stops Being Purely Digital</summary>
+    <category term="cybersecurity"/>
+    <category term="biosecurity"/>
+    <category term="datastorage"/>
+    <category term="informationsecurity"/>
+  </entry>
+  <entry>
+    <title>When Your Mouse Becomes a Microphone</title>
+    <link href="https://helixcipher.github.io/pages/blog/when_your_mouse_becomes_a_microphone"/>
+    <id>https://helixcipher.github.io/pages/blog/when_your_mouse_becomes_a_microphone</id>
+    <updated>2026-04-19T00:00:00Z</updated>
+    <summary>When Your Mouse Becomes a Microphone</summary>
+    <category term="securityresearch"/>
+    <category term="sidechannel"/>
+    <category term="privacy"/>
+    <category term="infosec"/>
+  </entry>
+  <entry>
+    <title>Who Designs the Future of AI When AI Designs Itself?</title>
+    <link href="https://helixcipher.github.io/pages/blog/who_designs the_future_of_ai_when_ai_designs_itself"/>
+    <id>https://helixcipher.github.io/pages/blog/who_designs the_future_of_ai_when_ai_designs_itself</id>
+    <updated>2026-04-19T00:00:00Z</updated>
+    <summary>Who Designs the Future of AI When AI Designs Itself?</summary>
+    <category term="ai"/>
+    <category term="airesearch"/>
+    <category term="machinelearning"/>
+    <category term="automl"/>
+  </entry>
+  <entry>
+    <title>Who’s Really Controlling Your Hiring Algorithm?</title>
+    <link href="https://helixcipher.github.io/pages/blog/whos_really_controlling_your_hiring_algorithm"/>
+    <id>https://helixcipher.github.io/pages/blog/whos_really_controlling_your_hiring_algorithm</id>
+    <updated>2026-04-19T00:00:00Z</updated>
+    <summary>Who’s Really Controlling Your Hiring Algorithm?</summary>
+    <category term="ai"/>
+    <category term="mlsecurity"/>
+    <category term="aisecurity"/>
+    <category term="responsibleai"/>
+  </entry>
+  <entry>
+    <title>Zero-Day Exploit in the Wild</title>
+    <link href="https://helixcipher.github.io/pages/blog/zero_day_exploit_in_the_wild"/>
+    <id>https://helixcipher.github.io/pages/blog/zero_day_exploit_in_the_wild</id>
+    <updated>2026-04-19T00:00:00Z</updated>
+    <summary>Zero-Day Exploit in the Wild</summary>
+    <category term="mobilesecurity"/>
+    <category term="cybersecurity"/>
+    <category term="androidsecurity"/>
+    <category term="threatintel"/>
+  </entry>
+</feed>

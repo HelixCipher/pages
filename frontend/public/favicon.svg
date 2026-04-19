@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <style>
+    .g { fill: #00FF00; stroke: #00FF00; }
+    @media (prefers-color-scheme: light) {
+      .g { fill: #0A7A0A; stroke: #0A7A0A; }
+    }
+  </style>
+  <!-- Terminal prompt > -->
+  <polygon class="g" points="3,7 10,16 3,25 6,25 13,16 6,7" stroke="none"/>
+  <!-- Underscore cursor -->
+  <rect class="g" x="14" y="22" width="8" height="2.5" rx="0.5" stroke="none"/>
+</svg>
